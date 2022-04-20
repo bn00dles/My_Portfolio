@@ -100,6 +100,7 @@ a:link {
     text-align: left;
     padding-left: 355px;
     padding-top: 25px;
+    background-color: azure;
 }
 
 .projects-title {
@@ -125,4 +126,24 @@ a:link {
 .projects-date {
     margin-top: 0;
     text-align: left;
+}
+
+/*--Skills--*/
+
+.skills-title {
+    color:rgb(31, 0, 170);
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills-container {
+    text-align: left;
+    padding-left: 355px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.skills-text {
+    text-align: center;
 }
