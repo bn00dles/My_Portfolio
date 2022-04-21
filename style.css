@@ -1,4 +1,5 @@
 /* Navigation */
+
 html,body
 {
     width: 100%;
@@ -154,4 +155,33 @@ a:link {
 
 .skills-text {
     text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .sidenav {
+      width: 45%;
+      height: 100%;
+      position: fixed;
+    }
+    .sidenav a {float: center;}
+    div.content {margin-left: 0;}
+  }
+
+@media screen and (max-width: 700px) {
+    .about-container {
+        padding-left: 50%;
+    }
+    .skills-container {
+        padding-left: 50%;
+    }
+    .projects-container {
+        padding-left: 50%;
+    }
+    .hero-name {
+        padding-left: 50%;
+        padding-top: 25%;
+    }
+    .hero-text {
+        padding-left: 50%;
+    }
 }
